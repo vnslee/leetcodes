@@ -1,6 +1,13 @@
 import java.util.Collections;
 import java.util.LinkedList;
 
+/**
+ * 두 개의 ListNode를 입력받아 ListNode의 Leaf Node부터 parent Node의 수를 더하는 문제
+ * EX) l1 : [ 2, 4, 9 ], l2 : [ 5, 6, 4, 9 ] 라면
+ * ==> 942 + 9465 = 10407 을 다시 reverse하여 ListNode 반환
+ */
+
+
 class ListNode {
 	int val;
 	ListNode next;
